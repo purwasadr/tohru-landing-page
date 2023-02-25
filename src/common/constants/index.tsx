@@ -47,7 +47,7 @@ const partners: PartnerCompany[] = [
   },
   {
     id: 3,
-    icon: <Kucoin />
+    icon: <BinanceSvg />
   },
   {
     id: 4,
