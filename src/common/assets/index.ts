@@ -1,0 +1,9 @@
+export { default as rocket } from './rocket.png';
+export { default as ecosystem } from './ecosystem.png';
+export { default as avaon1 } from './avaon1.png';
+export { default as avaon2 } from './avaon2.png';
+export { default as mobile } from './mobile.png';
+export { default as ellaFreya } from './profile/ella-freya.jpg';
+export { default as ellaFreya2 } from './profile/ella-freya2.jpg';
+export { default as ellaFreya3 } from './profile/ella-freya3.jpg';
+export { default as mikasa } from './profile/mikasa.jpg';

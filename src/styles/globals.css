@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  h1 {
+    @apply text-5xl text-center font-bold;
+  }
+  
+  h2 {
+    @apply text-4xl font-bold;
+  }
+
+  h3 {
+    @apply text-3xl font-semibold;
+  }
+
+  .bg-border-card-team {
+    background: linear-gradient(125deg, #4b35b9 0%, transparent 12%, transparent 88%, #4b35b9 100%);
+  }
+
+  .bg-border-card-team-reverse {
+    background: linear-gradient(125deg, #4b35b9 0%, transparent 30%, transparent 70%, #4b35b9 100%);
+  }
+}
