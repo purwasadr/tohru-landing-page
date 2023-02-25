@@ -2,12 +2,12 @@ const { PHASE_DEVELOPMENT_SERVER, PHASE_EXPORT, PHASE_PRODUCTION_BUILD } = requi
 
 /** @type {import('next').NextConfig} */
 const nextConfigDevServer = {
-
+  reactStrictMode: true,
 }
 
 /** @type {import('next').NextConfig} */
 const nextConfigElse = {
-  assetPrefix: './',
+  assetPrefix: 'https://cdn.statically.io/gh/purwasadr/tohru-landing-page/gh-pages',
 }
 
 /** @type {import('next').NextConfig} */
@@ -15,7 +15,6 @@ const nextConfigCommon = {
   images: {
     unoptimized: true,
   },
-  reactStrictMode: true,
 }
 
 module.exports = (phase, { defaultConfig }) => {
